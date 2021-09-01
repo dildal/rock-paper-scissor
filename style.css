@@ -1,0 +1,26 @@
+.container{
+	display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.container>div {
+	flex-grow: 1;
+	width: 33%;
+	text-align: center;
+}
+
+.jumbotron:only-child{
+	margin: 0 auto;
+}
+
+.scoreboard{
+	display: flex;
+	justify-content: center;
+}
+
+.hidden{
+	display: none;
+}

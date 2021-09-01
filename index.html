@@ -3,9 +3,34 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 	<title>Document</title>
 </head>
 <body>
+	<div class="container">
+		<div class="hand hidden">
+			<h2>Rock Paper or Scissors?</h2>
+			<button class="player-hand" value="rock">Rock</button>
+			<button class="player-hand" value="paper">Paper</button>
+			<button class="player-hand" value="scissors">Scissors</button>
+		</div>
+		<div class="jumbotron">
+			<button class="play-again">Press here to start!</button>
+			<div class="scoreboard-container hidden">
+				<h2>Score:</h2>
+				<div class="scoreboard">
+					<div class="wins"></div>
+					-
+					<div class="losses"></div>
+				</div>
+				<p class="result-display"></p>
+			</div>
+		</div>
+		<div class="hand hidden">
+			<h3>Computer's hand:</h3>
+				<div class="computer-hand"></div>
+		</div>
+	</div>
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
